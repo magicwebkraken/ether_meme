@@ -15637,16 +15637,19 @@
                 static #t = this.\u0275cmp = jr({
                     type: t,
                     selectors: [["boboverse-landing"]],
-                    decls: 7,
+                    decls: 9,
                     vars: 0,
-                    consts: [["id", "landing-bg", "src", "assets/roof/ssbg.png", 1, "bg"], ["id", "landing-bg", "src", "assets/roof/ss2.png", 1, "bg"], ["id", "landing-bg", "src", "assets/roof/ss1.png", 1, "bg"], ["id", "landing-bg", "src", "assets/roof/ss0.png", 1, "bg"], ["id", "landing-bg", "src", "assets/photos/gang.png", 1, "bg"], [1, "logo"], ["src", "assets/logo.png", 1, "logo"]],
+                    consts: [["id", "landing-bg", "src", "assets/roof/ssbg.png", 1, "bg"], ["id", "landing-bg", "src", "assets/roof/ss2.png", 1, "bg"], ["id", "landing-bg", "src", "assets/roof/ss1.png", 1, "bg"], ["id", "landing-bg", "src", "assets/roof/ss0.png", 1, "bg"], ["id", "landing-bg", "src", "assets/photos/gang.png", 1, "bg"], [1, "logo"], ["src", "assets/logo.png", 1, "logo"], [1, "buy-now-button"]],
                     template: function(r, i) {
                         1 & r && (xe(0, "img", 0)(1, "img", 1)(2, "img", 2)(3, "img", 3)(4, "img", 4),
                         Ke(5, "div", 5),
                         xe(6, "img", 6),
+                        Ke(7, "button", 7),
+                        on(8, "Buy Now"),
+                        wt(),
                         wt())
                     },
-                    styles: ['[_nghost-%COMP%]{display:grid;grid-template-areas:"landing";grid-template-columns:1fr;grid-template-rows:1fr;max-height:100vh;min-height:100vh;max-width:100vw;overflow:hidden}div.pin-spacer[_ngcontent-%COMP%]{grid-area:landing}div.logo[_ngcontent-%COMP%]{grid-area:landing;justify-self:center;align-self:center;color:var(--red);font-size:5vw;z-index:100}div.logo[_ngcontent-%COMP%]   img.logo[_ngcontent-%COMP%]{max-width:50vw;min-width:50vw}img#landing-bg[_ngcontent-%COMP%]{grid-area:landing;min-width:100vw;max-width:100vw;min-height:100vh;max-height:100vh;object-fit:cover;justify-self:center}'],
+                    styles: ['[_nghost-%COMP%]{display:grid;grid-template-areas:"landing";grid-template-columns:1fr;grid-template-rows:1fr;max-height:100vh;min-height:100vh;max-width:100vw;overflow:hidden}div.pin-spacer[_ngcontent-%COMP%]{grid-area:landing}div.logo[_ngcontent-%COMP%]{grid-area:landing;justify-self:center;align-self:center;color:var(--red);font-size:5vw;z-index:100;display:flex;flex-direction:column;align-items:center;gap:2rem}div.logo[_ngcontent-%COMP%]   img.logo[_ngcontent-%COMP%]{max-width:50vw;min-width:50vw}button.buy-now-button[_ngcontent-%COMP%]{padding:1rem 2rem;font-size:1.5rem;font-weight:bold;background-color:var(--red, #ff0000);color:white;border:none;border-radius:0.5rem;cursor:pointer;z-index:100;transition:transform 0.2s,box-shadow 0.2s}button.buy-now-button[_ngcontent-%COMP%]:hover{transform:scale(1.05);box-shadow:0 4px 12px rgba(0,0,0,0.3)}img#landing-bg[_ngcontent-%COMP%]{grid-area:landing;min-width:100vw;max-width:100vw;min-height:100vh;max-height:100vh;object-fit:cover;justify-self:center}'],
                     changeDetection: 0
                 })
             }

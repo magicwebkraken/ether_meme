@@ -1,0 +1,11 @@
+{
+  "name": "meme-memes-marking-club",
+  "version": 2,
+  "public": true,
+  "builds": [
+    {
+      "src": "**/*",
+      "use": "@vercel/static"
+    }
+  ]
+}

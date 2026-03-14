@@ -1,0 +1,109 @@
+@import"https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC:wght@100..400&display=swap";
+@font-face {
+    font-family: cartoon;
+    src: url(cartoon.c26450776f45ee03.eot);
+    src: url(cartoon.c26450776f45ee03.eot?#iefix) format("embedded-opentype"), url(cartoon.578ca2ce5fb1c9f9.woff2) format("woff2"), url(cartoon.9374491459f99840.woff) format("woff"), url(cartoon.1495639ac067d6c5.ttf) format("truetype"), url(cartoon.e8c2d1b44cf96c3b.svg#cartoon) format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Comicartoon;
+    src: url(Comicartoon-Regular.a6502b9865e9bf3f.eot);
+    src: url(Comicartoon-Regular.a6502b9865e9bf3f.eot?#iefix) format("embedded-opentype"), url(Comicartoon-Regular.340d2c0936703baf.woff2) format("woff2"), url(Comicartoon-Regular.c18b0db7db73d52c.woff) format("woff"), url(Comicartoon-Regular.732efeaf23dd4844.ttf) format("truetype"), url(Comicartoon-Regular.1c000c8ea05dba31.svg#Comicartoon-Regular) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Cartoonero;
+    src: url(Cartoonero.d64663d14ff3e6c8.eot);
+    src: url(Cartoonero.d64663d14ff3e6c8.eot?#iefix) format("embedded-opentype"), url(Cartoonero.5a19b306aaed4b3a.woff2) format("woff2"), url(Cartoonero.74f1bce2a74e3696.woff) format("woff"), url(Cartoonero.a95b05a4c0919323.ttf) format("truetype"), url(Cartoonero.badfe236182b2ba5.svg#Cartoonero) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Cartoonish;
+    src: url(Cartoonish.ab27a27c10d50b78.eot);
+    src: url(Cartoonish.ab27a27c10d50b78.eot?#iefix) format("embedded-opentype"), url(Cartoonish.96acea50af48c0a0.woff2) format("woff2"), url(Cartoonish.64dfd62117985dfc.woff) format("woff"), url(Cartoonish.e051de7feaf7aaa9.ttf) format("truetype"), url(Cartoonish.576b779ea90fdf01.svg#Cartoonish) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: "Comicartoon 3D Extrude";
+    src: url(Comicartoon-3DExtrude.02695053c64cdd5a.eot);
+    src: url(Comicartoon-3DExtrude.02695053c64cdd5a.eot?#iefix) format("embedded-opentype"), url(Comicartoon-3DExtrude.4eaf888c63e5285b.woff2) format("woff2"), url(Comicartoon-3DExtrude.5bfda9754fcc3944.woff) format("woff"), url(Comicartoon-3DExtrude.337d7fffa0282d2e.ttf) format("truetype"), url(Comicartoon-3DExtrude.64d38442201c71af.svg#Comicartoon-3DExtrude) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Solid Cartoonlings;
+    src: url(SolidCartoonlings.f1bdc07732c780f6.eot);
+    src: url(SolidCartoonlings.f1bdc07732c780f6.eot?#iefix) format("embedded-opentype"), url(SolidCartoonlings.b6a292c6b469707e.woff2) format("woff2"), url(SolidCartoonlings.1e5e45d54fc123c3.woff) format("woff"), url(SolidCartoonlings.a67cec98d1c29237.ttf) format("truetype"), url(SolidCartoonlings.f0f9df2aa3b0dece.svg#SolidCartoonlings) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+@font-face {
+    font-family: Hollow Cartoonlings;
+    src: url(HollowCartoonlings.0a65a26df8b3b4b0.eot);
+    src: url(HollowCartoonlings.0a65a26df8b3b4b0.eot?#iefix) format("embedded-opentype"), url(HollowCartoonlings.60cd78076592ff27.woff2) format("woff2"), url(HollowCartoonlings.c90ef8d000780d08.woff) format("woff"), url(HollowCartoonlings.3a1abacd31090b45.ttf) format("truetype"), url(HollowCartoonlings.4a30dcbbc2ad9de3.svg#HollowCartoonlings) format("svg");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap
+}
+
+:root {
+    --yellow: #FDE106;
+    --green: green;
+    --blue: blue;
+    --red: red;
+    --orange: orange;
+    --purple: #3A006E;
+    --dark-purple: #28004a;
+    --black: #000;
+    --white: #fff;
+    --site-padding: 25px
+}
+
+.bobo {
+    font-family: Playwrite AU VIC, cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal
+}
+
+html,
+body {
+    color: var(--black);
+    max-width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    overflow-x: hidden
+}
+
+html {
+    background: var(--white);
+    overflow-x: hidden
+}
+
+h1 {
+    font-family: cartoon
+}
+
+p {
+    font-family: Cartoonero;
+    text-transform: uppercase
+}

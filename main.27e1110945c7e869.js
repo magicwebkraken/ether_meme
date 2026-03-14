@@ -15826,7 +15826,7 @@
                     selectors: [["boboverse-footer"]],
                     decls: 11,
                     vars: 0,
-                    consts: [[1, "footer-background"], ["src", "/assets/basement/bg.png", 1, "room"], ["src", "/assets/footer/bags.png", 1, "bags"], ["src", "/assets/footer/dodo1.gif", 1, "dodo"], ["src", "/assets/footer/bobo1.gif", 1, "bobo"], ["src", "/assets/footer/snibbu1.gif", 1, "snibbu"], [1, "socials"], ["href", "https://x.com/Ether_meme"], ["src", "/assets/x.png"], ["href", "https://t.me/Ether_meme"], ["src", "/assets/telegram.png"]],
+                    consts: [[1, "footer-background"], ["src", "/assets/basement/bg.png", 1, "room"], ["src", "/assets/footer/bags.png", 1, "bags"], ["src", "/assets/footer/dodo1.gif", 1, "dodo"], ["src", "/assets/footer/bobo1.gif", 1, "bobo"], ["src", "/assets/footer/snibbu1.gif", 1, "snibbu"], [1, "socials"], ["href", "https://x.com/Ether_memes"], ["src", "/assets/x.png"], ["href", "https://t.me/Ether_memes"], ["src", "/assets/telegram.png"]],
                     template: function(r, i) {
                         1 & r && (Ke(0, "section", 0),
                         xe(1, "img", 1)(2, "img", 2)(3, "img", 3)(4, "img", 4)(5, "img", 5),

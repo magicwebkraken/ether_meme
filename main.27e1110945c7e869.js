@@ -15632,7 +15632,7 @@
                 ngAfterViewInit() {
                     const e = document.querySelector("button.buy-now-button");
                     e && e.addEventListener("click", (()=>{
-                        window.open("https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48", "_blank")
+                        window.open("https://app.uniswap.org/swap?chain=mainnet&inputCurrency=NATIVE&outputCurrency=0xa4668A76f3446499e9128D568e09EAD453ae9D81", "_blank")
                     }))
                 }
                 static #e = this.\u0275fac = function(r) {

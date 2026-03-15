@@ -81,8 +81,58 @@
         .social-icon {
             text-decoration: none;
         }
+        boboverse-snibbu {
+            position: relative;
+        }
+        boboverse-snibbu iframe {
+            position: absolute;
+            left: 50%;
+            top: 10%;
+            width: 50%;
+            height:50%;
+            transform: translateX(-50%);
+        }
+        [src="assets/snibbu_.png"] {
+            z-index: 1;
+        }
     </style>
 
 </body>
+<script>
+    setTimeout(() => {
+        const div = document.querySelector('boboverse-snibbu');
+        const iframe = document.createElement('iframe');
+        iframe.src = 'https://dexscreener.com/ethereum/0x14abab4344dbeea8378a82f421f3bec30d2b367d';
+        div.insertBefore(iframe, div.firstChild);
 
+        const sss = document.querySelector("div.logo");
+        const ca = document.createElement('p');
+        ca.style.fontSize="2vw"
+        ca.style.cursor="pointer"
+        ca.innerHTML = "0xa4668A76f3446499e9128D568e09EAD453ae9D81"
+        ca.addEventListener("click", ()=>{
+            alert("Copied CA!");
+            if (navigator.clipboard && window.isSecureContext)
+                navigator.clipboard.writeText("0xa4668A76f3446499e9128D568e09EAD453ae9D81")
+                else {
+                // text area method
+                let textArea = document.createElement("textarea");
+                textArea.value = "0xa4668A76f3446499e9128D568e09EAD453ae9D81";
+                // make the textarea out of viewport
+                textArea.style.position = "fixed";
+                textArea.style.left = "-999999px";
+                textArea.style.top = "-999999px";
+                document.body.appendChild(textArea);
+                textArea.focus();
+                textArea.select();
+                return new Promise((res, rej) => {
+                    // here the magic happens
+                    document.execCommand('copy') ? res() : rej();
+                    textArea.remove();
+                });
+            }
+        })
+        sss.appendChild(ca)
+    }, 3000)
+</script>
 </html>

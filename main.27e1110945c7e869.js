@@ -15644,7 +15644,7 @@
                     selectors: [["boboverse-landing"]],
                     decls: 9,
                     vars: 0,
-                    consts: [["id", "landing-bg", "src", "assets/roof/ssbg.png", 1, "bg"], ["id", "landing-bg", "src", "assets/roof/ss2.png", 1, "bg"], ["id", "landing-bg", "src", "assets/roof/ss1.png", 1, "bg"], ["id", "landing-bg", "src", "assets/roof/ss0.png", 1, "bg"], ["id", "landing-bg", "src", "assets/photos/gang.png", 1, "bg"], [1, "logo"], ["src", "assets/logo.png", 1, "logo"], [1, "buy-now-button"]],
+                    consts: [["id", "landing-bg", "src", "assets/roof/ssbg.png", 1, "bg"], ["id", "landing-bg", "src", "assets/roof/ss2.png", 1, "bg"], ["id", "landing-bg", "src", "assets/roof/ss1.png", 1, "bg"], ["id", "landing-bg", "src", "assets/roof/ss0.png", 1, "bg"], ["id", "landing-bg", "src", "assets/photos/gang.png", 1, "bg"], [1, "logo"], ["src", "assets/logo.png", 1, "logo"], [1, "buy-now-button"], [1, "copyca-button"]],
                     template: function(r, i) {
                         1 & r && (xe(0, "img", 0)(1, "img", 1)(2, "img", 2)(3, "img", 3)(4, "img", 4),
                         Ke(5, "div", 5),
